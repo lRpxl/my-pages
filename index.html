@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <title>Vídeo de Fundo com Less</title>
+    <link rel="stylesheet/less" type="text/css" href="./build/styles/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/less@latest/dist/less.min.js"></script>
+    <link rel="stylesheet" href="build/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./src/images/yuji.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <header>
+            <img class="profile-avatar" src="./src/images/359787746_6387245778028553_1571473172042441134_n.jpg" alt="">
+            <div class="profile-bio">
+                <h1 class="profile-bio name">Julio de Oliveira</h1>
+                <h2 class="profile-bio-subtitle">Desenvolvedor Front End</h2>
+                <p class="profile-bio-description">
+                    Html | Css | Nodejs
+                </p>
+            </div>
+        </header>
+        <nav>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/juliodeoliveira/"><img src="./src/images/instagram.svg" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/juliodeoliveira97/"><img src="./src/images/linkedin.svg" alt=""></a></li>
+                <li><a href="https://www.facebook.com/juliodeolivera97"><img src="./src/images/facebook.svg" alt=""></a></li>
+                <li><a href="https://github.com/lRpxl"><img src="./src/images/github.svg" alt=""></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="projects-list-item">
+                <li>
+                    <a href="https://landing-space-restaurant.vercel.app/">
+                        Projeto Restaurante
+                    </a></li>
+            </ul>
+            <ul class="projects-list-item">
+                <li>
+                    <a href="https://compre-aqui.vercel.app/">
+                        Projeto Compre aqui
+                    </a></li>
+            </ul>
+            <ul class="projects-list-item">
+                <li>
+                    <a href="https://j-query-galeria-de-imagem.vercel.app/">
+                        Projeto Galeria de Fotos
+                    </a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
